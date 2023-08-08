@@ -1,0 +1,65 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Item Giver Made By ZenaKosinov", "Synapse")
+
+ local GameHacks = Window:NewTab("Main")
+local DoorsItemsSection = GameHacks:NewSection("Item Giver")
+
+DoorsItemsSection:NewButton("banana ", "banana gun ", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+end)
+
+DoorsItemsSection:NewButton("Grenade ", " Grenade On Everything",  function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zeFBYYy9", true))()
+end)
+
+DoorsItemsSection:NewButton("HOly Hand Grenade ", " holy hand Grenade On Everything",  function()
+loadstring(game:HttpGet("https://pastebin.com/raw/x0YVrBkd", true))()
+end)
+
+DoorsItemsSection:NewButton("Crucifix Giver", "Gives Crucifix To You", function()
+    _G.Uses = 99999999999
+    _G.Range = 999
+    _G.OnAnything = true
+    _G.Fail = false
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+end)
+
+DoorsItemsSection:NewButton("Table Giver", "Gives Table  To You", function()
+_G.UpdateStars = false -- stars disappear after picking up a book/breaker pole | false: a little lag
+_G.OnShop = true -- can buy on pre run shop
+_G.Price = 1000 -- tablet price on shop
+_G.Description = "" -- tablet description on shop
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+end)
+
+DoorsItemsSection:NewButton("Burger", "Gives burger  To You", function()
+    local item = game:GetObjects("rbxassetid://100522628")[1]
+    item.Parent = game.Players.LocalPlayer.Backpack
+    end)
+
+    DoorsItemsSection:NewButton("Machete", "Gives Machete  To You", function()
+        local item = game:GetObjects("rbxassetid://11663904408")[1]
+        item.Parent = game.Players.LocalPlayer.Backpack
+        end)
+
+
+        DoorsItemsSection:NewButton("Guitar", "Gives Guitar  To You", function()
+            local item = game:GetObjects("rbxassetid://5482735490")[1]
+            item.Parent = game.Players.LocalPlayer.Backpack
+        end)
+
+ DoorsItemsSection:NewButton("Cookie ", "Gives Cookie  To You", function()
+    local item = game:GetObjects("rbxassetid://49276157")[1]
+    item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+DoorsItemsSection:NewButton("Flashlight ", "Gives Flashlight  To You", function()
+    local item = game:GetObjects("rbxassetid://11242492137")[1]
+    item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+DoorsItemsSection:NewButton("ban hammer ", "Gives ban hammer To You", function()
+    local item = game:GetObjects("rbxassetid://10468797")[1]
+    item.Parent = game.Players.LocalPlayer.Backpack
+end)

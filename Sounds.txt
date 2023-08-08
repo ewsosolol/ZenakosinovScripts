@@ -1,0 +1,29 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Burgerhub By zenakosinov#5234", "Sentinel")
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Sounds")
+
+MainSection:NewButton("default", "Default sound Noooooooooot Nottttttttttttt", function()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://1839246711"
+sound:Play()
+end)
+
+
+MainSection:NewButton("alpha sans phase 2 ", " ", function()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://11884557961"
+sound:Play()
+end)
+
+
+MainSection:NewButton("you are now entering the realm of tubers93  ", " ", function()
+sound = Instance.new("Sound",workspace)
+sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+sound.SoundId = "rbxassetid://8678357931"
+sound:Play()
+end)
+
